@@ -10,7 +10,7 @@ Array.prototype.myFilter = function (cb) {
 }
 
 const arr = [2,4,5];
-const res =arr.myFilter((value) => {
+const res = arr.myFilter((value) => {
     return value % 2 === 0;
 })
 console.log(res)
